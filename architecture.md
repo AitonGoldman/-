@@ -1,1 +1,24 @@
-
+# Introduction
+The goal of this project is to create scoring software that can be used for the Pinburgh finals.  It needs to be able to do the following things
+- Import a list of players in CSV format which contains the player names and their qualifying seeds
+- Provide an interface for scorekeepers which will allow them to...
+  - Select a division to scorekeep for
+  - Select a round to score keep
+  - View overviews of matches in a round which will have...
+    - Machine being played
+    - Players playing
+    - Points for each player in that match
+  - Select a match and do the following...
+    - select (or change) the machine for each game
+    - select (or change) the player order
+    - record a score for a player
+    - record a machine and scores for a tiebreaker
+  - Declare the round as done and generate the next round 
+- Provide an interface for the tournament runner to...
+  - manually change players in matches
+  - change scores after a round is completed 
+  - change scores after a round is completed and "undo" the next round
+- Provide an interface for players to view the results
+  - a round view
+  - a match view
+  - an overall ranking view
