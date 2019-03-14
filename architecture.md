@@ -18,7 +18,9 @@ The goal of this project is to create scoring software that can be used for the 
   - manually change players in matches
   - change scores after a round is completed 
   - change scores after a round is completed and "undo" the next round
+  - export the results for IFPA
 - Provide an interface for players to view the results
+  - select the division
   - a round view
   - a match view
   - an overall ranking view
